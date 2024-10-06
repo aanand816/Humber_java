@@ -9,14 +9,14 @@ public class input {
         Random rand = new Random();
        int lottery = rand.nextInt(99); // Generates a number between 0 and 99
 
+        // Extract digits from the lottery number
+        int lotteryDigit1 = lottery / 10;  // First digit of lottery
+        int lotteryDigit2 = lottery % 10;  // Second digit of lottery
+
         // Get the user input
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your lottery pick (two digits 00-99): ");
         int userGuess = input.nextInt();
-
-        // Extract digits from the lottery number
-        int lotteryDigit1 = lottery / 10;  // First digit of lottery
-        int lotteryDigit2 = lottery % 10;  // Second digit of lottery
 
         // Extract digits from the user's guess
         int guessDigit1 = userGuess / 10;  // First digit of user's guess

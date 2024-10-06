@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Activity4_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int plus = 2,greatest_divisor=0,divisor = 0;
         System.out.println("\n\t**Printing the Different Patterns**");
         System.out.println("\nType of the Patterns");
         System.out.println("1.Pattern A \n2.Pattern B \n3.Pattern C");

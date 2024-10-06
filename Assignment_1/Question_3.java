@@ -50,14 +50,16 @@ public class Question_3{
                 //checking the input as well as assigning the value
                 if (user_guess.equals("1") || user_guess.equals("rock")) {
                     user_guess = "rock";
+                    game(user_guess,com_guess);
                 } else if (user_guess.equals("2") || user_guess.equals("paper")) {
                     user_guess = "paper";
+                    game(user_guess,com_guess);
                 } else if (user_guess.equals("3") || user_guess.equals("scissor")) {
                     user_guess = "scissor";
+                    game(user_guess,com_guess);
                 }else{
                     System.out.println("\nPlease Enter the correct value :(");
                 }
-                game(user_guess,com_guess);
             }else{
                 System.out.print("\nDo you want to play this game again press Y for Yes and N for No : ");
                 decision=sc.nextLine().toLowerCase();
