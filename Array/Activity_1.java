@@ -13,13 +13,13 @@ public class Activity_1 {
             total =total+a[i];
         }
         average=total/10;
-        System.out.println("Average of the numeber is " + total/10);
+        System.out.println("\nAverage of the numeber is " + total/10);
         for (int i = 0; i < 10 ; i++) {
             if (a[i] > average) {
                 count=count+1;
             }
         }
-        System.out.println("There are " + count +" number");
+        System.out.println("\nThere are " + count +" number greater than Average ");
 
     }
 }

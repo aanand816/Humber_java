@@ -16,7 +16,7 @@ public class Activity_2 {
             for (int i = 0; i < 10-1; i++) {
                 max=Math.max(max,a[i+1]);
             }
-            System.out.println(max);
+            System.out.println("The maximum number is "+max);
         }
 
 }

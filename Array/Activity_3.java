@@ -20,6 +20,7 @@ public class Activity_3 {
                 index++;
             }
         }
+        System.out.println("The random cards are: ");
         // Print the deck to verify
         for (int i = 0; i <4 ; i++) {
             System.out.println(deck[random_cards[i]]);
