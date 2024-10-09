@@ -2,7 +2,8 @@ package Aanand_n01712678.Activity_4;
 
 import java.util.Scanner;
 
-public class Activity4_3 { public static void main(String[] args) {
+public class Activity4_3 {
+    public static void main(String[] args) {
     int num, col, start = 1, end = 10;
     Scanner sc = new Scanner(System.in);
     //This code will print multiple tables horizontally
