@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class DistinctArray {
 
     public static int[] eliminateDuplicates(int[] list){
-        for (int i = 0; i <list.length ; i++) {
-            for (int j = 0; j <list.length ; j++) {
+        for (int i = 1; i <list.length ; i++) {
+            for (int j = i; j >= 0 ; j--) {
                 if (list[i]==list[j]){
-                    `return list;                }
+
+                               }
             }
         }
         return list;

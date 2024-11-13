@@ -19,6 +19,6 @@ public class student {
         student s2 = new student();
         Example example = new Example();
         example.createstudent();
-        System.out.println(count);
+        System.out.println("Number of Instance : " + count);
     }
 }
